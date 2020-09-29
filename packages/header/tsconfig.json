@@ -1,0 +1,9 @@
+{
+    "extends": "../../tsconfig.json",
+    "references": [
+        { "path": "../footer" },
+      ],
+    "compilerOptions": {
+        "outDir": "./lib/typescript"
+    }
+}

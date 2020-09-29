@@ -1,0 +1,38 @@
+{
+  "name": "@sample-package/header",
+  "version": "0.1.0",
+  "description": "testing",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "types": "lib/typescript/src/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "bob build"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/yuensunn/sample-package",
+  "author": "sun <yuensun.n@vettons.com> (https://yuensunn.github.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuensunn/sample-package/issues"
+  },
+  "homepage": "https://github.com/yuensunn/sample-package#readme",
+  "devDependencies": {
+    "@react-native-community/bob": "^0.16.2",
+    "typescript": "^3.8.3"
+  },
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": ["commonjs", "module", "typescript"]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-sample-package-example",
+  "name": "@sample-package/example",
   "description": "Example app for react-native-sample-package",
   "version": "0.0.1",
   "private": true,
